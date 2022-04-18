@@ -1,0 +1,99 @@
+.site-header {
+  background-color: var(--purple);
+  color: var(--white);
+  padding: 10px 10px 20px;
+}
+
+.site-header .top-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.site-header .top-bar .left {
+  display: flex;
+}
+
+.site-header .site-menu {
+  margin-right: 10px;
+}
+
+.site-menu .hamburger .toggle-menu {
+  border: none;
+  width: 40px;
+}
+
+.site-menu .hamburger .toggle-menu > div {
+  width: 100%;
+  height: 3px;
+  background-color: var(--yellow);
+  margin: 5px 0;
+}
+
+.site-menu .site-nav {
+  display: none;
+}
+
+.site-header .account-nav {
+  display: flex;
+}
+
+.site-header .account-nav > li:not(:last-child) {
+  margin-right: 16px;
+}
+
+.site-header .account-nav > li svg {
+  margin-right: 5px;
+}
+
+.site-header .nav-flyout-parent {
+  position: relative;
+}
+
+.site-header .nav-flyout-trigger {
+  border: none;
+  color: var(--white);
+}
+
+.site-header .nav-flyout {
+  width: 300px;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: var(--white);
+  color: var(--purple);
+  padding: 15px;
+  border-radius: 3px;
+  border: 2px solid var(--orange);
+}
+
+.site-header .account-nav .logout {
+  border: none;
+  padding: 0;
+}
+
+.searchbar .search-form {
+  display: flex;
+}
+
+.searchbar .search-form .center {
+  flex-grow: 1;
+}
+
+.searchbar .search-form .search-input {
+  height: 44px;
+  padding: 0 10px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+  font-size: 1.1rem;
+}
+
+.searchbar .search-form .search-submit {
+  border: none;
+  background-color: var(--yellow);
+  width: 40px;
+  height: 100%;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
